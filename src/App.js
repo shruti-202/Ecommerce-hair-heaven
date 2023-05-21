@@ -5,7 +5,7 @@ import {Routes,Route} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1>Hair-Heaven</h1>
+      <h1>HairHeaven</h1>
       <p>Here you will get different types of hair extensions and wigs</p>
       <Routes>
         <Route path="/mockman" element={<Mockman/>}></Route>

@@ -19,7 +19,6 @@ function Navigation(){
                 <Link to="/" className="Navigation-list-item">HELP ME</Link>
                 <Link to="/" className="Navigation-list-item">ABOUT US</Link>
                 <Link to="/" className="Navigation-list-item">REVIEWS</Link>
-
             </div>
             <div className="Navigation-search">
         <img src={SearchIcon}/>
@@ -27,13 +26,13 @@ function Navigation(){
       </div>
             <div className="Navigation-options">
                 <div className="Navigation-options-item"> 
-                 <img src={HeartIcon} alt=""/>
+                 <img src={HeartIcon} alt="hearticon"/>
                  </div>
                 <div className="Navigation-options-item"> 
-                <img src={CartIcon} alt=""/>
+                <img src={CartIcon} alt="carticon"/>
                 </div>
                 <div className="Navigation-options-item"> 
-                <img src={LoginIcon} alt=""/>
+                <img src={LoginIcon} alt="loginicon"/>
                 </div>
              
             </div>

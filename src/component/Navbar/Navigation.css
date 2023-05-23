@@ -39,7 +39,7 @@
     margin-bottom:5px; 
     align-items: center;
     background-color:var(--ternary-color);
-    width:30%
+    width:20%
   }
 .Navigation-search img {
     width: 20px;
@@ -49,7 +49,7 @@
     font-size: 2px;
    }
   .Navigation-search input {
-    width: 90%;
+    width: 80%;
     height: 100%;
     border: none;
     outline: none;

@@ -3,7 +3,7 @@ import Mockman from "mockman-js";
 import {Routes,Route} from "react-router-dom";
 import Navigation from "./component/Navbar/Navigation";
 import "./App.css"
-// import Footer from "./component/Footer/Footer";
+import Slidebar from "./component/Slidebar/Slide";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/mockman" element={<Mockman/>}></Route>
       </Routes>
       <Navigation/>
-      {/* <Footer/> */}
+      <Slidebar/>
     </div>
   );
 }

@@ -21,7 +21,7 @@ function Navigation(){
                 <Link to="/" className="Navigation-list-item">REVIEWS</Link>
             </div>
             <div className="Navigation-search">
-        <img src={SearchIcon}/>
+        <img src={SearchIcon} alt="seachicon"/>
         <input placeholder="What are you loooking for?"></input>
       </div>
             <div className="Navigation-options">

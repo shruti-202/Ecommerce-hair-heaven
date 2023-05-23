@@ -1,8 +1,44 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
+import HeartIcon from "../../assets/icons/HeartIcon.svg";
+import CartIcon from "../../assets/icons/CartIcon.svg";
+import LoginIcon from "../../assets/icons/LoginIcon.svg";
+import SearchIcon from "../../assets/icons/SearchIcon.svg";
+import "./Navigation.css"
 
-function Navigation() {
+function Navigation(){
   return (
-    <div>Navigation</div>
+    <nav className="Navigation">
+        <div className="Navigation-container">
+            <div className="Navigation-logo">
+               <Link to="/" className="Navigation-logo-brandname">HairHeaven</Link> 
+            </div>
+            <div className="Navigation-list">
+                <Link to="/"  className="Navigation-list-item">HOME</Link>
+                <Link to="/" className="Navigation-list-item">SHOP</Link>
+                <Link to="/" className="Navigation-list-item">HELP ME</Link>
+                <Link to="/" className="Navigation-list-item">ABOUT US</Link>
+                <Link to="/" className="Navigation-list-item">REVIEWS</Link>
+
+            </div>
+            <div className="Navigation-search">
+        <img src={SearchIcon}/>
+        <input placeholder="What are you loooking for?"></input>
+      </div>
+            <div className="Navigation-options">
+                <div className="Navigation-options-item"> 
+                 <img src={HeartIcon} alt=""/>
+                 </div>
+                <div className="Navigation-options-item"> 
+                <img src={CartIcon} alt=""/>
+                </div>
+                <div className="Navigation-options-item"> 
+                <img src={LoginIcon} alt=""/>
+                </div>
+             
+            </div>
+        </div>
+    </nav>
   )
 }
 

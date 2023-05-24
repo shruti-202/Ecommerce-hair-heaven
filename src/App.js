@@ -1,9 +1,10 @@
 import "./App.css";
 import Mockman from "mockman-js";
+import "./App.css"
 import {Routes,Route} from "react-router-dom";
 import Navigation from "./component/Navbar/Navigation";
-import "./App.css"
-import Slidebar from "./component/Slidebar/Slide";
+import Slide from "./component/Slidebar/Slide";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Route path="/mockman" element={<Mockman/>}></Route>
       </Routes>
       <Navigation/>
-      <Slidebar/>
+      <Slide/>
+      <Footer/>
     </div>
   );
 }

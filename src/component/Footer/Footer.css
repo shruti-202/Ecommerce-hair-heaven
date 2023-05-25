@@ -10,12 +10,14 @@
   }
   .footer-bottom {
     display: flex;
+    justify-content: space-between;
     /* width:175px; */
   }
   .footer-bottom-about-list,.footer-bottom-customer{
     padding: 10px;
-    width: 200px;
+    width: 100px;
   }
+  
   .footer-heading {
     margin-bottom: 30px;
     color:var(--secondary-color);
@@ -33,10 +35,6 @@
   }
   .footer-unordered-list{
     padding:0px;
-  }
-   {
-    padding: 10px;
-    width: 200px;
   }
   .footer-bottom-connect {
     padding: 10px;
@@ -69,3 +67,22 @@
     font-size: 12px;
     font-weight: bold;
   }
+  @media screen and (min-width: 600px) and (max-width: 991px){
+  .footer-bottom-about-list,.footer-bottom-customer{
+    padding: 10px;
+    width: 100px;
+  }.footer-bottom-connect {
+    padding: 10px;
+    width: 160px;
+  }
+}
+@media screen and (max-width: 600px){
+  .footer-bottom-about-list,.footer-bottom-customer{
+    padding: 10px;
+    width: 50px;
+  }.footer-bottom-connect {
+    padding: 10px;
+    width: 100px;
+  }
+
+}

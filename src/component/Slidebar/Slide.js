@@ -13,7 +13,7 @@ function Slide() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 1,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -26,13 +26,20 @@ function Slide() {
   };
 
   return (
-    <Carousel responsive={responsive}>
+    <Carousel
+      responsive={responsive}
+      infinite={true}
+      autoPlay={true}
+      autoPlaySpeed={900}
+      customTransition="all .5"
+      transitionDuration={900}
+    >
       <div >
         <img
           className="d-block w-100"
           src={landing_1}
           alt="First slide"
-          style={{width:"600px" ,height:"300px"}}
+          style={{width:'100%'}}
         />
        
           {/* <h3>First slide label</h3>
@@ -44,7 +51,7 @@ function Slide() {
           className="d-block w-100"
           src={landing_2}
           alt="Second slide"
-          style={{width:"700px" ,height:"300px"}}
+          style={{width:"100%"}}
         />
       </div>
     </Carousel>

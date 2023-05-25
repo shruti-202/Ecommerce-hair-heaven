@@ -4,7 +4,9 @@ import "./App.css"
 import {Routes,Route} from "react-router-dom";
 import Navigation from "./component/Navbar/Navigation";
 import Slide from "./component/Slidebar/Slide";
+import BestProduct from "./component/Product/BestProduct";
 import Footer from "./component/Footer/Footer";
+import ProductList from "./component/Product/ProductList"
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       </Routes>
       <Navigation/>
       <Slide/>
+      <BestProduct/>
+      <ProductList/>
       <Footer/>
     </div>
   );

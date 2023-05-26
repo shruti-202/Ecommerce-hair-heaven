@@ -98,7 +98,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="footer-owner">Made in India by Shruti Gawande</div>
+      <div className="footer-owner">Made in India with ❤️ by Shruti Gawande
+      <p>© 2023 HairHeaven, All rights reserved</p></div>
     </div>
   );
 }

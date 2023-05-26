@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 import landing_1 from "../../assets/photos/landing_1.webp"
 import landing_2 from "../../assets/photos/landing_2.webp";
 
-function Slide() {
+function Slider() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -37,19 +37,15 @@ function Slide() {
       <div >
         <img
           className="d-block w-100"
-          src={landing_1}
+          src={landing_2}
           alt="First slide"
           style={{width:'100%'}}
         />
-       
-          {/* <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-  
       </div>
       <div>
         <img
           className="d-block w-100"
-          src={landing_2}
+          src={landing_1}
           alt="Second slide"
           style={{width:"100%"}}
         />
@@ -58,4 +54,4 @@ function Slide() {
   );
 }
 
-export default Slide;
+export default Slider;

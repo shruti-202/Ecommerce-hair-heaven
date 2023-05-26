@@ -26,7 +26,7 @@ function Navigation() {
             HELP ME
           </Link>
           <Link to="/" className="Navigation-list-item">
-            ABOUT US
+            BOOK A TRIAL
           </Link>
           <Link to="/" className="Navigation-list-item">
             REVIEWS

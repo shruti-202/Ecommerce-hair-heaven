@@ -35,6 +35,7 @@
   }
   .footer-unordered-list{
     padding:0px;
+    /* gap: 0.5rem; */
   }
   .footer-bottom-connect {
     padding: 10px;

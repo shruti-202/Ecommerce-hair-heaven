@@ -31,7 +31,8 @@ function Slider() {
       infinite={true}
       autoPlay={true}
       autoPlaySpeed={900}
-      customTransition="all .5"
+      // customTransition="all .5"
+      customTransition="transform 1000ms ease-in-out"
       transitionDuration={900}
     >
       <div >

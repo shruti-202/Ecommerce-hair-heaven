@@ -4,9 +4,9 @@ import "./App.css"
 import {Routes,Route} from "react-router-dom";
 import Navigation from "./component/Navbar/Navigation";
 import Slider from "./component/Slidebar/Slider";
-import BestProduct from "./component/Product/BestProduct";
+import TopCategory from "./component/Header/TopCategory";
 import Footer from "./component/Footer/Footer";
-import ProductList from "./component/Product/ProductList"
+import ProductList from "./component/Header/ProductList"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       </Routes>
       <Navigation/>
       <Slider/>
-      <BestProduct/>
+      <TopCategory/>
       <ProductList/>
       <Footer/>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import landing_1 from "../../assets/photos/landing_1.webp"
+import landing_3 from "../../assets/photos/landing_3.webp"
 import landing_2 from "../../assets/photos/landing_2.webp";
 
 function Slider() {
@@ -45,7 +45,7 @@ function Slider() {
       <div>
         <img
           className="d-block w-100"
-          src={landing_1}
+          src={landing_2}
           alt="Second slide"
           style={{width:"100%"}}
         />

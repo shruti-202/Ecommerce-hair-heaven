@@ -5,7 +5,8 @@ import originaal from "../../assets/photos/originaal.png";
 import arrow from "../../assets/photos/arrow.png";
 import facebook from "../../assets/photos/facebook.png";
 import twitter from "../../assets/photos/twitter.png";
-import instagram from "../../assets/photos/instagram.png";
+ import instagram from "../../assets/photos/instagram.png";
+
 
 function Footer() {
   return (
@@ -20,7 +21,7 @@ function Footer() {
                 <li className="footer-heading-items">Join Our Team</li>
                 <li className="footer-heading-items">Reviews</li>
                 <li className="footer-heading-items">Hair Care 101</li>
-                <li className="footer-heading-items">Hair Heaven Card</li>
+                <li className="footer-heading-items">HairHeaven Card</li>
                 <li className="footer-heading-items">Hair Blogs</li>
                 <li className="footer-heading-items">Bulk Enquiry</li>
               </ul>

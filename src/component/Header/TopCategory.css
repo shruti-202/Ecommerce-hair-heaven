@@ -1,0 +1,25 @@
+.top-category{
+    margin: 20px 30px;
+  }
+  .top-category-heading{
+    font-size: 1.8em;
+    letter-spacing: 0.13em;
+  }
+  .top-category-products {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .top-category-products img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .top-category-item{
+    padding:5px;
+    /* gap:10px; */
+  }
+  .product-name{
+    text-align: center;
+    font-weight: bold;
+  }

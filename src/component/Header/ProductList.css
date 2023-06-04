@@ -1,4 +1,4 @@
-.product-list{
+.product-list {
   margin: 30px 30px;
 }
 .product-list-heading,
@@ -14,7 +14,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap:10px;
+  gap: 10px;
+  margin-bottom: 25px;
   /* padding:10px; */
 }
 .product-list-view img {
@@ -22,14 +23,14 @@
   width: 100%;
   object-fit: cover;
 }
-@media (max-width:991px){
+@media (max-width: 991px) {
   .product-list-view img {
     height: 300px;
     width: 33.3%;
     object-fit: cover;
   }
 }
-@media (max-width:600px){
+@media (max-width: 600px) {
   .product-list-view img {
     height: 300px;
     width: 50%;

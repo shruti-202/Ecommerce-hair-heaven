@@ -29,9 +29,7 @@ function TopCategory() {
         <img src={productImg} alt="products"/>
         <p className="product-name">{categoryName}</p>
       </div>
-
     ))}
-        
       </div>
     </div>
   );

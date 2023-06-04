@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import HeartIcon from "../../assets/icons/HeartIcon.svg";
 import CartIcon from "../../assets/icons/CartIcon.svg";
 import LoginIcon from "../../assets/icons/LoginIcon.svg";
@@ -11,32 +11,37 @@ function Navigation() {
     <nav className="Navigation">
       <div className="Navigation-container">
         <div className="Navigation-logo">
-          <Link to="/" className="Navigation-logo-brandname">
+          <NavLink to="/" className="Navigation-logo-brandname">
             HairHeaven
-          </Link>
+          </NavLink>
         </div>
         <div className="Navigation-list">
-          <Link to="/" className="Navigation-list-item">
+          <NavLink to="/" className="Navigation-list-item">
             HOME
-          </Link>
-          <Link to="/" className="Navigation-list-item">
+          </NavLink>
+          <NavLink to="/shop" className="Navigation-list-item">
             SHOP
-          </Link>
-          <Link to="/" className="Navigation-list-item">
+          </NavLink>
+          <NavLink to="/helpme" className="Navigation-list-item">
             HELP ME
-          </Link>
-          <Link to="/" className="Navigation-list-item">
+          </NavLink>
+          <NavLink to="/trial" className="Navigation-list-item">
             BOOK A TRIAL
-          </Link>
-          <Link to="/" className="Navigation-list-item">
+          </NavLink>
+          <NavLink to="/reviews" className="Navigation-list-item">
             REVIEWS
-          </Link>
+          </NavLink>
         </div>
         <div className="Navigation-search">
           <img src={SearchIcon} alt="seach" />
           <input placeholder="What are you loooking for?"></input>
         </div>
         <div className="Navigation-options">
+        <div className="Navigation-options-item">
+        <NavLink to="/explore" className="Navigation-list-item">
+            EXPLORE
+          </NavLink>
+          </div>
           <div className="Navigation-options-item">
             <img src={HeartIcon} alt="hearticon" />
           </div>

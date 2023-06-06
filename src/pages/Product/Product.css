@@ -9,7 +9,7 @@
 }
 .all-product-view {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); 
   gap: 10px;
   margin: 30px 30px;
 }
@@ -18,10 +18,17 @@
   aspect-ratio: 1;
   overflow: hidden;
 }
-.products-view img {
+.product-img {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+}
+.product-img img {
   width: 100%;
   height: 100%;
-  /* height:300px; */
-  display: block;
   object-fit: cover;
 }
+.addtocart{
+  z-index:1;
+}
+

@@ -1,4 +1,4 @@
-import { v4 as uuid } from "uuid";
+// import { v4 as uuid } from "uuid";
 
 /**
  * Product Database can be added here.
@@ -7,7 +7,7 @@ import { v4 as uuid } from "uuid";
 
 export const products = [
   {
-    _id: uuid(),
+    _id: 1,
     category: "Single Clip Highlights",
     orignalPrice: 10000,
     subtitle: "Emerald Green Single Clip Highlights",
@@ -18,7 +18,7 @@ export const products = [
       "https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_ab9fb703-5bac-41fd-ab7d-6d0262418abd_800x.jpg?v=1660804229",
   },
   {
-    _id: uuid(),
+    _id: 2,
     category:"Clip-In Bangs",
     orignalPrice:3000,
     subtitle:"Stylish Short Clip in Bangs",
@@ -30,7 +30,7 @@ export const products = [
   
   
   {
-    _id: uuid(),
+    _id: 3,
     category:"Ponytail Extensions",
     orignalPrice:9500,
     subtitle:"Classic Ponytail Extensions",
@@ -40,7 +40,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_eae32b38-ec5e-4dce-943d-074cdc113991_800x.jpg?v=1660981142",
   },
   {
-    _id: uuid(),
+    _id: 4,
     category:"Clip-In Bangs",
     orignalPrice:8000,
     subtitle:"Wispy Clip -In Bangs",
@@ -50,7 +50,7 @@ export const products = [
     productImg:"https://m.media-amazon.com/images/I/41ikAIntffL._AC_UL600_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 5,
     category:"Single Clip Highlights",
     orignalPrice:5000,
     subtitle:"Lavendar Single Clip Highlight",
@@ -62,7 +62,7 @@ export const products = [
   
   
   {
-    _id: uuid(),
+    _id: 6,
     category:"Clip-In Bangs",
     orignalPrice:10000,
     subtitle:"Clip-In Bangs-cute",
@@ -72,7 +72,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_a244a705-4e54-4d00-ab58-ad32c884a260_800x.jpg?v=1660805134",
   },
   {
-    _id: uuid(),
+    _id: 7,
     category:"Wig",
     orignalPrice:30000,
     subtitle:"Full Head Wig-Silk Base",
@@ -83,7 +83,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 8,
     category: "Single Clip Highlights",
     orignalPrice: 6000,
     subtitle: "Wine Red Single Clip Highlights",
@@ -93,7 +93,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_800x.jpg?v=1660635476",
   },
   {
-    _id: uuid(),
+    _id: 9,
     category:"Clip-In Bangs",
     orignalPrice:6000,
     subtitle:"Single Clip in Bang",
@@ -103,7 +103,7 @@ export const products = [
     productImg:"https://m.media-amazon.com/images/I/51WyByQ0UkL._AC_UL600_FMwebp_QL65_.jpg",
   },
   {
-    _id: uuid(),
+    _id: 10,
     category:"Wig",
     orignalPrice:19000,
     subtitle:"Light Ash Brown Balayage | Half Head Wig",
@@ -114,7 +114,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 11,
     category:"Clip-In Bangs",
     orignalPrice:5000,
     subtitle:"Curly Clip-In Bangs",
@@ -127,7 +127,7 @@ export const products = [
  
   
   {
-    _id: uuid(),
+    _id: 12,
     category:"Single Clip Highlights",
     orignalPrice:25000,
     subtitle:"Golden Blonde Single Clip Highlights",
@@ -137,7 +137,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_28040c6f-df53-41a1-bd70-78ce2a7e6e56_800x.jpg?v=1660804194",
   },
   {
-    _id: uuid(),
+    _id: 13,
     category:"Single Clip Highlights",
     orignalPrice:30000,
     subtitle:"Copper Brown Single Clip Highlights",
@@ -148,7 +148,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 14,
     category:"Single Clip Highlights",
     orignalPrice:1000,
     subtitle:"Ash Brown Single Clip Highlights",
@@ -159,7 +159,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 15,
     category:"Ponytail Extensions",
     orignalPrice:11500,
     subtitle:"Chocolate Brown Balayage | Ponytail Extension",
@@ -169,7 +169,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_2_800x.jpg?v=1661501302",
   },
   {
-    _id: uuid(),
+    _id: 16,
     category:"Ponytail Extensions",
     orignalPrice:10000,
     subtitle:"Classic Ponytail Extensions",
@@ -179,7 +179,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/files/ponytail_extension_600x.jpg?v=1682599756",
   },
   {
-    _id: uuid(),
+    _id: 17,
     category:"Ponytail Extensions",
     orignalPrice:8000,
     subtitle:"Caramel Brown Balayage | Ponytail Extension",
@@ -189,7 +189,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/products/LRFeaturedImage_4_800x.jpg?v=1661503119",
   },
   {
-    _id: uuid(),
+    _id: 18,
     category:"Ponytail Extensions",
     orignalPrice:10000,
     subtitle:"Black Balayage | Ponytail Extension",
@@ -199,7 +199,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0258/2531/2848/products/Ponytail-extensions_2ebcfb1e-f147-4858-9a85-682d38e4b343.jpg?v=1680006343&width=1100",
   },
   {
-    _id: uuid(),
+    _id: 19,
     category:"Curly Hair",
     orignalPrice:9000,
     subtitle:"Full Head Curly Hair",
@@ -209,7 +209,7 @@ export const products = [
     productImg:"https://www.ouidad.com/cdn/shop/articles/PDP_Details_VitalCurl_Mousse_AFTER_3072x.jpg?v=1655392201",
   },
   {
-    _id: uuid(),
+    _id: 20,
     category:"Curly Hair",
     orignalPrice:13000,
     subtitle:"Messy Curly hair ",
@@ -220,7 +220,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 21,
     category:"Curly Hair",
     orignalPrice:4900,
     subtitle:"Curly hair top knot extensions- wrap around",
@@ -230,7 +230,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0688/3370/6274/products/Curlytopknot_960x_crop_center.jpg?v=1674476325",
   },
   {
-    _id: uuid(),
+    _id: 22,
     category:"Curly Hair",
     orignalPrice:4000,
     subtitle:"Curly hair-In hair extensions-set of 4 ",
@@ -240,7 +240,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0688/3370/6274/products/curly-set-of-4-MB-768x1020_596x596_crop_center.jpg?v=1673602837",
   },
   {
-    _id: uuid(),
+    _id: 23,
     category:"Curly Hair",
     orignalPrice:8000,
     subtitle:"Slightly coiled curly hair extensions-side patches",
@@ -251,7 +251,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 24,
     category:"Clip-In Bangs",
     orignalPrice:4000,
     subtitle:"Clip-In Bangs with Sides",
@@ -262,7 +262,7 @@ export const products = [
   },
   
   {
-    _id: uuid(),
+    _id: 25,
     category:"Curly Hair",
     orignalPrice:12000,
     subtitle:"Long length curly hair",
@@ -274,7 +274,7 @@ export const products = [
   
   
   {
-    _id: uuid(),
+    _id: 26,
     category:"Wig",
     orignalPrice:25000,
     subtitle:"Half Head Wig | Natural Wavy",
@@ -284,7 +284,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/files/FeaturedImage_afab3607-2805-43f9-86f6-9ae314651e42_800x.jpg?v=1682942542",
   },
   {
-    _id: uuid(),
+    _id: 27,
     category:"Wig",
     orignalPrice:28000,
     subtitle:"Matural Black Full Head Wefted Wig with Bangs",
@@ -294,7 +294,7 @@ export const products = [
     productImg:"https://cdn.shopify.com/s/files/1/0688/3370/6274/products/IMG_7710_960x_crop_center.webp?v=1673349518",
   },
   {
-    _id: uuid(),
+    _id: 28,
     category:"Wig",
     orignalPrice:25000,
     subtitle:"Mono Lace Full Lace-Full Head Wig",

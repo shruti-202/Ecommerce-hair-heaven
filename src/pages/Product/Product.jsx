@@ -14,13 +14,11 @@ function Product() {
       console.log(error);
     }
   };
-  console.log(allProduct);
+
 
   useEffect(() => {
     getData();
   }, []);
-
-  //
 
   return (
     <>
@@ -28,12 +26,11 @@ function Product() {
         <h4 className="all-product-heading">Showing All Products</h4>
       </div>
       <div className="all-product-view">
-        {allProduct?.map(({ _id, productImg,subtitle}) => (
+        {allProduct?.map(({ _id, productImg, subtitle }) => (
           <div className="products-view" key={_id}>
             <div className="product-img">
               <img src={productImg} alt="products" />
             </div>
-          
             <div className="product_card_btns">
               <button className="addtocart_btn">Add to Cart</button>
             </div>

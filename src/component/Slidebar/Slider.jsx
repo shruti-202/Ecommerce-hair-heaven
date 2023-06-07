@@ -6,7 +6,6 @@ import landing_2 from "../../assets/photos/landing_2.webp";
 function Slider() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -30,7 +29,6 @@ function Slider() {
       infinite={true}
       autoPlay={true}
       autoPlaySpeed={900}
-      // customTransition="all .5"
       customTransition="transform 1000ms ease-in-out"
       transitionDuration={900}
     >

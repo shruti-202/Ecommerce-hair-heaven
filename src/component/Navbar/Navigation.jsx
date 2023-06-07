@@ -20,7 +20,7 @@ function Navigation() {
             HOME
           </NavLink>
           <NavLink to="/shop" className="Navigation-list-item">
-            SHOP
+            SHOP 
           </NavLink>
           <NavLink to="/helpme" className="Navigation-list-item">
             HELP ME

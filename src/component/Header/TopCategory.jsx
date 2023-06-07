@@ -2,7 +2,6 @@ import React from "react";
 import {useState,useEffect} from "react";
 import "./TopCategory.css";
 
-
 function TopCategory() {
   const [category,setCategory]=useState([]);
     const getData=async()=>{

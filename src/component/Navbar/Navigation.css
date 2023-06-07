@@ -32,6 +32,10 @@
     color:var(--seconday-color);
     text-decoration: none;
 }
+.Navigation-list{
+    display: flex;
+    gap: 14px;
+}
 .Navigation-search {
     display: flex;
     padding:3px;
@@ -43,7 +47,6 @@
   }
 .Navigation-search img {
     width: 20px;
-    /* height:20px; */
     background-color:var(--ternary-color);
     margin: 0 10px; 
     font-size: 2px;

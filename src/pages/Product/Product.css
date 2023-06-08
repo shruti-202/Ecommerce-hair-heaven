@@ -1,5 +1,14 @@
 .all-product {
   margin: 30px 30px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.filter-container{
+flex: 20%;
+}
+.product-container{
+  flex:80%;
+
 }
 .all-product-heading {
   font-size: 1.8em;
@@ -16,7 +25,7 @@
 .products-view {
   width: 100%;
   aspect-ratio: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .product-img {
   width: 90%;

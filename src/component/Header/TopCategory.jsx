@@ -21,7 +21,7 @@ function TopCategory() {
   
   return (
     <div className="top-category">
-      <h4 className="top-category-heading">TOP BEST CATEGORY</h4>
+      <h4 className="top-category-heading">TOP CATEGORY</h4>
       <div className="top-category-products">
     {category?.map(({_id,categoryName,productImg})=>(
       <div className="top-category-item" key={_id}>

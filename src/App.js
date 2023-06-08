@@ -8,6 +8,7 @@ import NotFound from "./pages/404/404";
 import Help from "./pages/Help/Help";
 import Reviews from "./pages/Reviews/Reviews";
 import Trial from "./pages/Trial/Trial";
+import Signup from "./pages/Auth/Signup/Signup";
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/trial" element={<Trial />} />
         <Route path="/explore" element={<Product />} />
+        <Route path="/signup" element={<Signup/>} />
         <Route path="*" element={<NotFound />} />
+        
       </Routes>
     </div>
   );

@@ -49,7 +49,10 @@ function Navigation() {
             <img src={CartIcon} alt="carticon" />
           </div>
           <div className="Navigation-options-item">
+            <NavLink to="/signup">
             <img src={LoginIcon} alt="loginicon" />
+            </NavLink>
+           
           </div>
         </div>
       </div>

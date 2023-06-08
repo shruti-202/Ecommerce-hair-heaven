@@ -23,19 +23,30 @@ function Product() {
   return (
     <>
       <div className="all-product">
+      <div className="filter-container"><h1>Filters</h1></div>
+        <div className="product-container">
         <h4 className="all-product-heading">Showing All Products</h4>
-      </div>
-      <div className="all-product-view">
-        {allProduct?.map(({ _id, productImg, subtitle }) => (
+        <div className="all-product-view">
+        {allProduct?.map(({ _id, productImg, subtitle,orignalPrice,rating }) => (
           <div className="products-view" key={_id}>
             <div className="product-img">
               <img src={productImg} alt="products" />
+            </div>
+            <div>
+              <p>{subtitle}</p>
+              <p>{orignalPrice}</p>
+              <p>{rating}</p>
             </div>
             <div className="product_card_btns">
               <button className="addtocart_btn">Add to Cart</button>
             </div>
           </div>
         ))}
+        </div>
+      </div>
+     
+        
+       
       </div>
       <Footer />
     </>

@@ -35,9 +35,9 @@ function Signup() {
             </button>
           </div>
           <div>
-            Already have an account ?
-            <Link to="/login" className="login-link">
-              Login
+            Already have an account ? {""}
+            <Link to="/signin" className="login-link">
+              SIGN IN
             </Link>
           </div>
       </form>

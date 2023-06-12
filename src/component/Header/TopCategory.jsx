@@ -26,7 +26,9 @@ function TopCategory() {
     {category?.map(({_id,categoryName,productImg})=>(
       <div className="top-category-item" key={_id}>
         <img src={productImg} alt="products"/>
-        <p className="product-name">{categoryName}</p>
+        <div className="top-category-btn">
+        <button>{categoryName}</button>
+        </div>
       </div>
     ))}
       </div>

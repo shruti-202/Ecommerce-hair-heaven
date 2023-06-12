@@ -23,7 +23,9 @@ function Product() {
   return (
     <>
       <div className="all-product">
-      <div className="filter-container"><h1>Filters</h1></div>
+      <div className="filter-container">
+        <h1 className="filter-heading">Filters</h1>
+        </div>
         <div className="product-container">
         <h4 className="all-product-heading">Showing All Products</h4>
         <div className="all-product-view">
@@ -33,20 +35,20 @@ function Product() {
               <img src={productImg} alt="products" />
             </div>
             <div>
-              <p>{subtitle}</p>
-              <p>{orignalPrice}</p>
-              <p>{rating}</p>
+              <p className="product-title">{subtitle}</p>
+              <div className="product-detail">
+              <p>Rs.{orignalPrice}</p>
+              <p>Rating:{rating}</p>
+              </div>
+             
             </div>
-            <div className="product_card_btns">
-              <button className="addtocart_btn">Add to Cart</button>
-            </div>
+            <div className="product-card-btn">
+            <button>Add to Cart</button>
+            </div>    
           </div>
         ))}
         </div>
-      </div>
-     
-        
-       
+      </div> 
       </div>
       <Footer />
     </>

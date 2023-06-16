@@ -14,7 +14,8 @@
     font-weight: 600;
 }
 .Navigation-logo .Navigation-logo-brandname{
-    color:var(--seconday-color);
+    /* color:var(--seconday-color); */
+    color:var(--dark-brown);
     text-decoration: none;
     display:flex;
     align-items: center;
@@ -83,6 +84,11 @@
     width: 20px; 
     height: 20px;
   
+}
+i{
+    color:var(--dark-brown);
+    font-size: 1.2rem;
+    
 }
 
   

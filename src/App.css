@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
+
 :root {
     --primary-color:#937572;
     --secondary-color:#220901;
     --ternary-color:#fdfffc;
+    --dark-brown:#380f27;
     --light-black:#332e3c;
     --off-white: #F4F4F4;
     --off-black:#8d99ae;
-    --off-brown:#d2a89b;
+   
     
 }
 
 body {
     font-family: "Roboto", sans-serif;
+    
 }
 *{
     margin: 0;

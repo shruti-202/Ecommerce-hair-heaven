@@ -38,19 +38,19 @@ function Navigation() {
         </div>
         <div className="Navigation-options">
         <div className="Navigation-options-item">
-        <NavLink to="/explore" className="Navigation-list-item">
+        <NavLink to="/products" className="Navigation-list-item">
             EXPLORE
           </NavLink>
           </div>
           <div className="Navigation-options-item">
-            <img src={HeartIcon} alt="hearticon" />
+          <i className="fa fa-heart"></i>
           </div>
           <div className="Navigation-options-item">
-            <img src={CartIcon} alt="carticon" />
+          <i class="fa-solid fa-cart-shopping"></i>
           </div>
           <div className="Navigation-options-item">
             <NavLink to="/signup">
-            <img src={LoginIcon} alt="loginicon" />
+            <i class="fa-solid fa-user"></i>
             </NavLink>
            
           </div>

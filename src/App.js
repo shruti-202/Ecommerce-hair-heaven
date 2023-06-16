@@ -10,6 +10,7 @@ import Reviews from "./pages/Reviews/Reviews";
 import Trial from "./pages/Trial/Trial";
 import Signin from "./pages/Auth/Signin/Signin";
 import Signup from "./pages/Auth/Signup/Signup";
+import SingleProduct from "./pages/singleProduct/SingleProduct";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         <Route path="/helpme" element={<Help />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/trial" element={<Trial />} />
-        <Route path="/explore" element={<Product />} />
+        <Route path="/products" element={<Product />} />
+        <Route path="/product/:productId" element={<SingleProduct/>}/>
         <Route path="/signin" element={<Signin/>}/>
         <Route path="/signup" element={<Signup/>} />
         <Route path="*" element={<NotFound />} />

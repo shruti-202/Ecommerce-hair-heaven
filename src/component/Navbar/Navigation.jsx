@@ -1,8 +1,5 @@
 import React from "react";
 import { NavLink} from "react-router-dom";
-import HeartIcon from "../../assets/icons/HeartIcon.svg";
-import CartIcon from "../../assets/icons/CartIcon.svg";
-import LoginIcon from "../../assets/icons/LoginIcon.svg";
 import SearchIcon from "../../assets/icons/SearchIcon.svg";
 import "./Navigation.css";
 
@@ -43,7 +40,7 @@ function Navigation() {
           </NavLink>
           </div>
           <div className="Navigation-options-item">
-          <i className="fa fa-heart"></i>
+          <i class="fa-solid fa-heart"></i>
           </div>
           <div className="Navigation-options-item">
           <i class="fa-solid fa-cart-shopping"></i>
@@ -52,7 +49,6 @@ function Navigation() {
             <NavLink to="/signup">
             <i class="fa-solid fa-user"></i>
             </NavLink>
-           
           </div>
         </div>
       </div>

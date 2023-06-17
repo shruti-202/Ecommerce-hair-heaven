@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "./SingleProduct.css";
 
 function SingleProduct() {
   const { productId } = useParams();
@@ -19,13 +20,27 @@ function SingleProduct() {
   useEffect(() => {
     fetchData();
   }, []);
+  
 
-
-  return (
-    <div>
-      <h1>{singleProduct.description}</h1>
+return (
+  <div className="single-product-details">
+    <div className="product-image-view">
+      <img className="product-image" src={singleProduct?.productImg} alt="product" />
     </div>
-  );
-}
+    <div className="product-details">
+      <h2 className="product-heading">{singleProduct?.subtitle}</h2>
+      <p className="product-description">{singleProduct?.description}</p>
+      <div className="product-detail-view">
+      <span className="product-price">₹{singleProduct?.originalPrice}</span>
+      <span className="product-rating">
+        {singleProduct?.rating}
+        <i class="fa-solid fa-star"></i>
+      </span>
+      </div>
+      
+    </div>
+  </div>
+);
+};
 
 export default SingleProduct;

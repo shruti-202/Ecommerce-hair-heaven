@@ -9,7 +9,7 @@ export const products = [
   {
     _id: 1,
     category: "Single Clip Highlights",
-    orignalPrice: 10000,
+    originalPrice: 10000,
     subtitle: "Emerald Green Single Clip Highlights",
     description: "Add a pop of color to your hair by using HairHeaven Single Clip-In Highlights without using any harsh chemicals leading to damage to your own hair! Just clip in these GEMS and voila!",
     discountPrice: 7999,
@@ -20,7 +20,7 @@ export const products = [
   {
     _id: 2,
     category:"Clip-In Bangs",
-    orignalPrice:3000,
+    originalPrice:3000,
     subtitle:"Stylish Short Clip in Bangs",
     description:"Ladies! Now you can revamp your look without cutting your hair super short because all you need is the HairHeaven clip-in bangs.",
     discountPrice: 2699,
@@ -32,7 +32,7 @@ export const products = [
   {
     _id: 3,
     category:"Ponytail Extensions",
-    orignalPrice:9500,
+    originalPrice:9500,
     subtitle:"Classic Ponytail Extensions",
     description:"Whether you make a ponytail high or low, our Ponytail Extensions will make you fall in love with your pretty pony making it longer and fuller within seconds. Just clip, wrap, and bobby pin it, for added oomph to your sexy pony.",
     discountPrice: 7999,
@@ -42,7 +42,7 @@ export const products = [
   {
     _id: 4,
     category:"Clip-In Bangs",
-    orignalPrice:8000,
+    originalPrice:8000,
     subtitle:"Wispy Clip -In Bangs",
     description:"If you want something fun that’ll incorporate new styles into your regular hair routine, HairHeaven wispy bangs can be a simple way to do just that. ",
     discountPrice: 6999,
@@ -52,7 +52,7 @@ export const products = [
   {
     _id: 5,
     category:"Single Clip Highlights",
-    orignalPrice:5000,
+    originalPrice:5000,
     subtitle:"Lavendar Single Clip Highlight",
     description:"Add a pop of color to your hair by using HairHeaven Single Clip-In Highlights without using any harsh chemicals leading to damage to your own hair! Just clip in these GEMS and voila!",
     discountPrice: 399,
@@ -64,7 +64,7 @@ export const products = [
   {
     _id: 6,
     category:"Clip-In Bangs",
-    orignalPrice:10000,
+    originalPrice:10000,
     subtitle:"Clip-In Bangs-cute",
     description:"Let's get real girls, bangs make you look cutest but they are so high maintenance especially when they just won't stay on your forehead neatly, or during those awkward days when they are growing.",
     discountPrice: 8999,
@@ -74,7 +74,7 @@ export const products = [
   {
     _id: 7,
     category:"Wig",
-    orignalPrice:30000,
+    originalPrice:30000,
     subtitle:"Full Head Wig-Silk Base",
     description:"This full head silk base wig is perfect fit for women under going chemo or Alopecia.",
     discountPrice: 28000,
@@ -85,7 +85,7 @@ export const products = [
   {
     _id: 8,
     category: "Single Clip Highlights",
-    orignalPrice: 6000,
+    originalPrice: 6000,
     subtitle: "Wine Red Single Clip Highlights",
     description: "Add a pop of color to your hair by using HairHeaven Single Clip-In Highlights without using any harsh chemicals leading to damage to your own hair! Just clip in these GEMS and voila!",
     discountPrice: 4999,
@@ -95,7 +95,7 @@ export const products = [
   {
     _id: 9,
     category:"Clip-In Bangs",
-    orignalPrice:6000,
+    originalPrice:6000,
     subtitle:"Single Clip in Bang",
     description:"It hide small bald spots, especially near the temple area and add volume",
     discountPrice: 4999,
@@ -105,7 +105,7 @@ export const products = [
   {
     _id: 10,
     category:"Wig",
-    orignalPrice:19000,
+    originalPrice:19000,
     subtitle:"Light Ash Brown Balayage | Half Head Wig",
     description:"Half head wig has a seamless and invisible hairline that looks like the hair is coming out from your roots.",
     discountPrice: 17999,
@@ -116,20 +116,17 @@ export const products = [
   {
     _id: 11,
     category:"Clip-In Bangs",
-    orignalPrice:5000,
+    originalPrice:5000,
     subtitle:"Curly Clip-In Bangs",
     description:"A curly girl win! Introducing our gorgeous Curly Clip-In Bangs that will make your curly hair look oh-so-fabulous in a matter of seconds.",
     discountPrice: 4500,
     rating: 4,
     productImg:"https://cdn.shopify.com/s/files/1/0591/6422/9806/files/COVERIMAGE_fd8508ea-1085-4761-8ff3-7ddefa953e94_800x.jpg?v=1684320735",
   },
-
- 
-  
   {
     _id: 12,
     category:"Single Clip Highlights",
-    orignalPrice:25000,
+    originalPrice:25000,
     subtitle:"Golden Blonde Single Clip Highlights",
     description:"Add a pop of color to your hair by using HairHeaven Single Clip-In Highlights without using any harsh chemicals leading to damage to your own hair! Just clip in these GEMS and voila!",
     discountPrice: 22999,
@@ -139,7 +136,7 @@ export const products = [
   {
     _id: 13,
     category:"Single Clip Highlights",
-    orignalPrice:30000,
+    originalPrice:30000,
     subtitle:"Copper Brown Single Clip Highlights",
     description:"Add a pop of color to your hair by using HairHeaven Single Clip-In Highlights without using any harsh chemicals leading to damage to your own hair! Just clip in these GEMS and voila!",
     discountPrice: 28999,
@@ -150,7 +147,7 @@ export const products = [
   {
     _id: 14,
     category:"Single Clip Highlights",
-    orignalPrice:1000,
+    originalPrice:1000,
     subtitle:"Ash Brown Single Clip Highlights",
     description:"Add a pop of color to your hair by using HairHeaven Single Clip-In Highlights without using any harsh chemicals leading to damage to your own hair! Just clip in these GEMS and voila!",
     discountPrice: 600,
@@ -161,7 +158,7 @@ export const products = [
   {
     _id: 15,
     category:"Ponytail Extensions",
-    orignalPrice:11500,
+    originalPrice:11500,
     subtitle:"Chocolate Brown | Ponytail Extension",
     description:"Whether you make a ponytail high or low, our Ponytail Extensions will make you fall in love with your pretty pony making it longer and fuller within seconds. Just clip, wrap, and bobby pin it, for added oomph to your sexy pony.",
     discountPrice: 11000,
@@ -171,7 +168,7 @@ export const products = [
   {
     _id: 16,
     category:"Ponytail Extensions",
-    orignalPrice:10000,
+    originalPrice:10000,
     subtitle:"Classic Ponytail Extensions",
     description:"Whether you make a ponytail high or low, our Ponytail Extensions will make you fall in love with your pretty pony making it longer and fuller within seconds. Just clip, wrap, and bobby pin it, for added oomph to your sexy pony",
     discountPrice: 9000,
@@ -181,7 +178,7 @@ export const products = [
   {
     _id: 17,
     category:"Ponytail Extensions",
-    orignalPrice:8000,
+    originalPrice:8000,
     subtitle:"Caramel Brown | Ponytail Extension",
     description:"Whether you make a ponytail high or low, our Ponytail Extensions will make you fall in love with your pretty pony making it longer and fuller within seconds. Just clip, wrap, and bobby pin it, for added oomph to your sexy pony",
     discountPrice: 7999,
@@ -191,7 +188,7 @@ export const products = [
   {
     _id: 18,
     category:"Ponytail Extensions",
-    orignalPrice:10000,
+    originalPrice:10000,
     subtitle:"Black Balayage | Ponytail Extension",
     description:"Whether you make a ponytail high or low, our Ponytail Extensions will make you fall in love with your pretty pony making it longer and fuller within seconds. Just clip, wrap, and bobby pin it, for added oomph to your sexy pony",
     discountPrice: 8999,
@@ -201,7 +198,7 @@ export const products = [
   {
     _id: 19,
     category:"Curly Hair",
-    orignalPrice:9000,
+    originalPrice:9000,
     subtitle:"Full Head Curly Hair",
     description:"Fullfill your desire of having voluminous curly hair if you have straight hair.",
     discountPrice: 7990,
@@ -211,7 +208,7 @@ export const products = [
   {
     _id: 20,
     category:"Curly Hair",
-    orignalPrice:13000,
+    originalPrice:13000,
     subtitle:"Messy Curly hair ",
     description:"Fullfill your desire of having voluminous curly hair if you have straight hair.",
     discountPrice: 11199,
@@ -222,7 +219,7 @@ export const products = [
   {
     _id: 21,
     category:"Curly Hair",
-    orignalPrice:4900,
+    originalPrice:4900,
     subtitle:"Curly hair top knot extensions- wrap around",
     description:"Fullfill your desire of having voluminous curly hair if you have straight hair.",
     discountPrice: 2889,
@@ -232,7 +229,7 @@ export const products = [
   {
     _id: 22,
     category:"Curly Hair",
-    orignalPrice:4000,
+    originalPrice:4000,
     subtitle:"Curly hair-In hair extensions-set of 4 ",
     description:"Fullfill your desire of having voluminous curly hair if you have straight hair",
     discountPrice: 2999,
@@ -242,7 +239,7 @@ export const products = [
   {
     _id: 23,
     category:"Curly Hair",
-    orignalPrice:8000,
+    originalPrice:8000,
     subtitle:"Slightly coiled curly hair extensions",
     description:"Fullfill your desire of having voluminous curly hair if you have straight hair",
     discountPrice: 6999,
@@ -253,7 +250,7 @@ export const products = [
   {
     _id: 24,
     category:"Clip-In Bangs",
-    orignalPrice:4000,
+    originalPrice:4000,
     subtitle:"Clip-In Bangs with Sides",
     description:"Get HairHeaven Clip-In Bangs with Sides, for those whose hair isn't cut in steps at the front. ",
     discountPrice: 2999,
@@ -264,11 +261,11 @@ export const products = [
   {
     _id: 25,
     category:"Curly Hair",
-    orignalPrice:12000,
+    originalPrice:12000,
     subtitle:"Long length curly hair",
     description:"Fullfill your desire of having voluminous curly hair if you have straight hair.",
     discountPrice: 7999,
-    rating: 3,
+    rating: 1,
     productImg:"https://www.latest-hairstyles.com/wp-content/uploads/long-curly-hair-for-women.jpg",
   },
   
@@ -276,7 +273,7 @@ export const products = [
   {
     _id: 26,
     category:"Wig",
-    orignalPrice:25000,
+    originalPrice:25000,
     subtitle:"Half Head Wig | Natural Wavy",
     description:"Half head wig has a seamless and invisible hairline that looks like the hair is coming out from your roots.",
     discountPrice: 23999,
@@ -286,8 +283,8 @@ export const products = [
   {
     _id: 27,
     category:"Wig",
-    orignalPrice:28000,
-    subtitle:"Matural Black Full Head ",
+    originalPrice:28000,
+    subtitle:"Natural Black Full Head ",
     description:"Wigs for women come in different variations , we have full lace wigs , frontal lace wigs & this new addition is Full Wefted Cap with front bangs – Dense Bangs .",
     discountPrice: 26999,
     rating: 3,
@@ -296,7 +293,7 @@ export const products = [
   {
     _id: 28,
     category:"Wig",
-    orignalPrice:25000,
+    originalPrice:25000,
     subtitle:"Mono Lace Full Lace-Full Head Wig",
     description:"Beautiful mono Lace, Full Head Wigs are one of the best natural solutions if you are suffering severe hair loss, hair thinning, balding issues or just wish to oomph up your hairstyle with extra volume",
     discountPrice: 23999,

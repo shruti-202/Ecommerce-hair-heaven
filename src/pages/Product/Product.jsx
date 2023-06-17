@@ -30,7 +30,7 @@ function Product() {
           <h4 className="all-product-heading">Showing All Products</h4>
           <div className="all-product-view">
             {allProduct?.map(
-              ({ _id, productImg, subtitle, orignalPrice, rating }) => (
+              ({ _id, productImg, subtitle, originalPrice, rating }) => (
                 <div className="products-view" key={_id}>
                   <div className="product-img">
                     <NavLink to={`/product/${_id}`}>
@@ -40,8 +40,11 @@ function Product() {
                   <div>
                     <p className="product-title">{subtitle}</p>
                     <div className="product-detail">
-                      <p>Rs.{orignalPrice}</p>
-                      <p>Rating:{rating}</p>
+                      <p>₹{originalPrice}</p>
+                      <p className="product-rating">
+                        {rating} 
+                        <i class="fa-solid fa-star"></i>
+                      </p>
                     </div>
                   </div>
                   <div className="product-card-btn">

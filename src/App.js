@@ -2,7 +2,7 @@ import "./App.css";
 import Mockman from "mockman-js";
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./component/Navbar/Navigation";
-import Product from "./pages/Product/Product";
+import AllProduct from "./pages/Product/AllProduct";
 import Landing from "./landing/Landing";
 import NotFound from "./pages/404/404";
 import Help from "./pages/Help/Help";
@@ -16,18 +16,19 @@ import SingleProduct from "./pages/singleProduct/SingleProduct";
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <Navigation/>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/mockman" element={<Mockman />} />
-        <Route path="/shop" element={<Product />} />
+        <Route path="/shop" element={<AllProduct />} />
         <Route path="/helpme" element={<Help />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/trial" element={<Trial />} />
-        <Route path="/products" element={<Product />} />
+        <Route path="/products" element={<AllProduct />} />
         <Route path="/product/:productId" element={<SingleProduct/>}/>
-        <Route path="/signin" element={<Signin/>}/>
         <Route path="/signup" element={<Signup/>} />
+        <Route path="/signin" element={<Signin/>}/>
+       
         <Route path="*" element={<NotFound />} />
         
       </Routes>

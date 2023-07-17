@@ -97,7 +97,7 @@ export const products = [
     category:"Clip-In Bangs",
     originalPrice:6000,
     subtitle:"Single Clip in Bang",
-    description:"It hide small bald spots, especially near the temple area and add volume",
+    description:"It hide small bald spots, especially near the temple area and add volume.The Bang will take your look to the next level. Whether you’re wearing them to serve edgy glam or sultry looks, you’ll be sure to turn heads. Great for heart and diamond face shapes.",
     discountPrice: 4999,
     rating: 3,
     productImg:"https://m.media-amazon.com/images/I/51WyByQ0UkL._AC_UL600_FMwebp_QL65_.jpg",

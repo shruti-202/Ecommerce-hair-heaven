@@ -3,6 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import landing_2 from "../../assets/photos/landing_2.webp";
 
+
 function Slider() {
   const responsive = {
     superLargeDesktop: {

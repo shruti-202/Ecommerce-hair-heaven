@@ -1,10 +1,10 @@
 import React from "react";
-import "./Product.css";
+import "./AllProduct.css";
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../../component/Footer/Footer";
 
-function Product() {
+function AllProduct() {
   const [allProduct, setAllProduct] = useState([]);
   const getData = async () => {
     try {
@@ -61,4 +61,4 @@ function Product() {
   );
 }
 
-export default Product;
+export default AllProduct;

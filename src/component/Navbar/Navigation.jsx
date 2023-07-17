@@ -40,13 +40,17 @@ function Navigation() {
           </NavLink>
           </div>
           <div className="Navigation-options-item">
+          <NavLink to="/signin">
           <i class="fa-solid fa-heart"></i>
+          </NavLink>
           </div>
           <div className="Navigation-options-item">
+          <NavLink to="/signin">
           <i class="fa-solid fa-cart-shopping"></i>
+          </NavLink>
           </div>
           <div className="Navigation-options-item">
-            <NavLink to="/signup">
+            <NavLink to="/signin">
             <i class="fa-solid fa-user"></i>
             </NavLink>
           </div>

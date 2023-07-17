@@ -1,5 +1,6 @@
 import React from "react";
 import {useState,useEffect} from "react";
+import { NavLink} from "react-router-dom";
 import "./ProductList.css";
 
 
@@ -32,7 +33,10 @@ function ProductList() {
     <div className="product-list-view">
             {showProduct?.map(({_id,productImg})=>(
               <div className="product-view" key={_id}>
+                <NavLink to={`/product/${_id}`} className="Navigation-list-item">
                 <img src={productImg} alt="products"/>
+          </NavLink>
+                
               </div>
             ))}
     </div>

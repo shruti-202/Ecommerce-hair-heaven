@@ -3,9 +3,9 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import originaal from "../../assets/photos/originaal.png";
 import arrow from "../../assets/photos/arrow.png";
-import facebook from "../../assets/photos/facebook.png";
+import github from "../../assets/photos/github.png";
 import twitter from "../../assets/photos/twitter.png";
- import instagram from "../../assets/photos/instagram.png";
+ import linkedin from "../../assets/photos/linkedin.png";
 
 
 function Footer() {
@@ -44,16 +44,16 @@ function Footer() {
           </div>
           <div className="footer-bottom-connect">
             <h4 className="footer-heading">KEEP IN TOUCH</h4>
-            <Link to="/">
+            <Link  target='_blank' to="https://github.com/shruti-202">
               <img
                 className="connect-ions"
-                src={facebook}
+                src={github}
                 width="20px"
                 height="20px"
-                alt="myntra"
+                alt="github"
               />
             </Link>
-            <Link to="/">
+            <Link  target='_blank' to="https://twitter.com/shruugawande">
               <img
                 className="connect-ions"
                 src={twitter}
@@ -62,17 +62,16 @@ function Footer() {
                 alt="twitter"
               />
             </Link>
-            <Link to="/">
+            <Link  target='_blank' to="https://www.linkedin.com/in/shruti-gawande/">
               <img
                 className="connect-ions"
-                src={instagram}
+                src={linkedin}
                 width="20px"
                 height="20px"
                 alt="instagram"
               />
             </Link>
           </div>
-
           <div className="footer-bottom-return">
             <div className="footer-section">
               <div className="footer-images">
@@ -98,7 +97,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
       <div className="footer-owner">Made in India with ❤️ by Shruti Gawande
       <p>© 2023 HairHeaven, All rights reserved</p></div>
     </div>

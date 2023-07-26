@@ -36,13 +36,17 @@ function AllProduct() {
                     <NavLink to={`/product/${_id}`}>
                       <img src={productImg} alt="products" />
                     </NavLink>
+                    <NavLink to="/signin" className="wishlist">
+                      {/* <i class="fa-solid fa-heart" ></i> */}
+                      <i class="fa-regular fa-heart"></i>
+                    </NavLink>
                   </div>
                   <div>
                     <p className="product-title">{subtitle}</p>
                     <div className="product-detail">
                       <p>₹{originalPrice}</p>
                       <p className="product-rating">
-                        {rating} 
+                        {rating}
                         <i class="fa-solid fa-star"></i>
                       </p>
                     </div>

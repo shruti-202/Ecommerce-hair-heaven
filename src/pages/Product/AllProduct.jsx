@@ -37,7 +37,6 @@ function AllProduct() {
                       <img src={productImg} alt="products" />
                     </NavLink>
                     <NavLink to="/signin" className="wishlist">
-                      {/* <i class="fa-solid fa-heart" ></i> */}
                       <i class="fa-regular fa-heart"></i>
                     </NavLink>
                   </div>

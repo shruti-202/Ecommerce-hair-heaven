@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,NavLink } from "react-router-dom";
 import "./SingleProduct.css";
 
 function SingleProduct() {
@@ -41,7 +41,8 @@ function SingleProduct() {
           </span>
         </div>
         <div className="product-cart-btn">
-          <button>Add to Cart</button>
+          <button className="primary-btn">Add to Cart</button>
+          <button className="secondary-btn">Go to Cart</button>
         </div>
       </div>
     </div>

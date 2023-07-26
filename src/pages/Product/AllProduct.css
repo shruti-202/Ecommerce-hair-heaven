@@ -51,9 +51,10 @@
   
 }
 .fa-regular{
-  font-weight: 600;
+  font-weight: 600; 
   right:-12px;
   font-size: 1.2rem;
+  
 }
 .product-title{
   margin-top: 1rem;

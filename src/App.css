@@ -1,26 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
 :root {
-    --primary-color:#937572;
-    --secondary-color:#220901;
-    --ternary-color:#fdfffc;
-    --dark-brown:#380f27;
-    --light-black:#332e3c;
-    --off-white: #F4F4F4;
-    --off-black:#8d99ae;
-   
-    
+  --primary-color: #937572;
+  --secondary-color: #220901;
+  --ternary-color: #fdfffc;
+  --dark-brown: #380f27;
+  --light-black: #332e3c;
+  --off-white: #f4f4f4;
+  --off-black: #8d99ae;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: #e9ecef;
-    
-    
+  font-family: "Roboto", sans-serif;
+  background-color: #e9ecef;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }

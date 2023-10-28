@@ -1,12 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import originaal from "../../assets/photos/originaal.png";
+import original from "../../assets/photos/original.png";
 import arrow from "../../assets/photos/arrow.png";
 import github from "../../assets/photos/github.png";
 import twitter from "../../assets/photos/twitter.png";
- import linkedin from "../../assets/photos/linkedin.png";
-
+import linkedin from "../../assets/photos/linkedin.png";
 
 function Footer() {
   return (
@@ -44,7 +43,7 @@ function Footer() {
           </div>
           <div className="footer-bottom-connect">
             <h4 className="footer-heading">KEEP IN TOUCH</h4>
-            <Link  target='_blank' to="https://github.com/shruti-202">
+            <Link target="_blank" to="https://github.com/shruti-202">
               <img
                 className="connect-ions"
                 src={github}
@@ -53,7 +52,7 @@ function Footer() {
                 alt="github"
               />
             </Link>
-            <Link  target='_blank' to="https://twitter.com/shruugawande">
+            <Link target="_blank" to="https://twitter.com/shruugawande">
               <img
                 className="connect-ions"
                 src={twitter}
@@ -62,7 +61,10 @@ function Footer() {
                 alt="twitter"
               />
             </Link>
-            <Link  target='_blank' to="https://www.linkedin.com/in/shruti-gawande/">
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/shruti-gawande/"
+            >
               <img
                 className="connect-ions"
                 src={linkedin}
@@ -76,7 +78,7 @@ function Footer() {
             <div className="footer-section">
               <div className="footer-images">
                 {" "}
-                <img src={originaal} alt="footer" width="40px" />
+                <img src={original} alt="footer" width="40px" />
               </div>
               <div className="footer-promises">
                 <strong>100 % ORIGINAL </strong>
@@ -85,7 +87,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="footer-sectiontwo">
+            <div className="footer-section-two">
               <div className="footer-images">
                 <img src={arrow} alt="footer" width="40px" />
               </div>
@@ -97,8 +99,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="footer-owner">Made in India with ❤️ by Shruti Gawande
-      <p>© 2023 HairHeaven, All rights reserved</p></div>
+      <div className="footer-owner">
+        Made in India with ❤️ by Shruti Gawande
+        <p>© 2023 HairHeaven, All rights reserved</p>
+      </div>
     </div>
   );
 }

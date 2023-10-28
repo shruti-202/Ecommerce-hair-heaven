@@ -49,7 +49,7 @@
   .footer-bottom-return {
     padding: 5px;
   }
-  .footer-section , .footer-sectiontwo {
+  .footer-section , .footer-section-two {
     display: flex;
     align-items: center;
     gap:10px;

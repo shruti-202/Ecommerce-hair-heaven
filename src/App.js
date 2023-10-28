@@ -12,11 +12,10 @@ import Signin from "./pages/Auth/Signin/Signin";
 import Signup from "./pages/Auth/Signup/Signup";
 import SingleProduct from "./pages/singleProduct/SingleProduct";
 
-
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/mockman" element={<Mockman />} />
@@ -25,12 +24,10 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/trial" element={<Trial />} />
         <Route path="/products" element={<AllProduct />} />
-        <Route path="/product/:productId" element={<SingleProduct/>}/>
-        <Route path="/signup" element={<Signup/>} />
-        <Route path="/signin" element={<Signin/>}/>
-       
+        <Route path="/product/:productId" element={<SingleProduct />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/signin" element={<Signin />} />
         <Route path="*" element={<NotFound />} />
-        
       </Routes>
     </div>
   );

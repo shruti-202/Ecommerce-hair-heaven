@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { useParams,NavLink } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "./SingleProduct.css";
 
 function SingleProduct() {
@@ -15,8 +15,6 @@ function SingleProduct() {
       console.log(error);
     }
   };
-  console.log(singleProduct);
-
   useEffect(() => {
     fetchData();
   }, []);

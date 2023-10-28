@@ -1,8 +1,7 @@
-import React from 'react';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import landing_2 from "../../assets/photos/landing_2.webp";
-
 
 function Slider() {
   const responsive = {
@@ -33,12 +32,12 @@ function Slider() {
       customTransition="transform 1000ms ease-in-out"
       transitionDuration={900}
     >
-      <div >
+      <div>
         <img
           className="d-block w-100"
           src={landing_2}
           alt="First slide"
-          style={{width:'100%'}}
+          style={{ width: "100%" }}
         />
       </div>
       <div>
@@ -46,7 +45,7 @@ function Slider() {
           className="d-block w-100"
           src={landing_2}
           alt="Second slide"
-          style={{width:"100%"}}
+          style={{ width: "100%" }}
         />
       </div>
     </Carousel>

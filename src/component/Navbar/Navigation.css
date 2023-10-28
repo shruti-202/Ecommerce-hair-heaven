@@ -16,8 +16,7 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
-.Navigation-logo .Navigation-logo-brandname {
-  /* color:var(--seconday-color); */
+.Navigation-logo .Navigation-logo-brand-name {
   color: var(--dark-brown);
   text-decoration: none;
   display: flex;
@@ -66,7 +65,7 @@
   margin: 5px;
 }
 .Navigation-search input::placeholder {
-  color: var(--seconday-color);
+  color: var(--secondary-color);
 }
 .Navigation-options {
   display: flex;
@@ -84,7 +83,7 @@
   width: 20px;
   height: 20px;
 }
-i{
+i {
   color: var(--dark-brown);
   font-size: 1.2rem;
 }
